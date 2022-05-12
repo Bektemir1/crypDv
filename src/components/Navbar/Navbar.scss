@@ -1,0 +1,23 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    
+    .menu {
+        height:62px;
+        display: flex;
+        align-items: center;
+        &__item{
+            display: inline-block;
+            text-transform: uppercase;
+            margin-right: 40px;
+            font-weight: 600;
+
+            a{
+                color:#fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
